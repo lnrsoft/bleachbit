@@ -1,4 +1,4 @@
-"""
+""
 BleachBit
 Copyright (C) 2008-2017 Andrew Ziem
 https://www.bleachbit.org
@@ -447,8 +447,8 @@ def shrink():
             'Error when running strip. Does your PATH have MINGW with binutils?')
 
     if not fast:
-        upx()
-        assert_execute_console()
+        #upx()
+        #assert_execute_console()
 
     logger.info('Purging unnecessary GTK+ files')
     # FIXME: move clean-dist into this program
