@@ -1,4 +1,4 @@
-""
+"""
 BleachBit
 Copyright (C) 2008-2017 Andrew Ziem
 https://www.bleachbit.org
