@@ -446,7 +446,7 @@ def shrink():
         logger.exception(
             'Error when running strip. Does your PATH have MINGW with binutils?')
 
-    if not fast:
+    #if not fast:
         #upx()
         #assert_execute_console()
 
